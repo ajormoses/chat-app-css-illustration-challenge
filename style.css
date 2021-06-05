@@ -1,0 +1,522 @@
+body {
+	background-color:hsl(270, 20%, 96%) ;
+	margin: 0;
+	font-family: 'Rubik', sans-serif;
+	overflow-x: hidden;
+}
+
+.firstContainer {
+	position: relative;
+	background: linear-gradient(to bottom left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+	height: 570px;
+	width: 180px;
+	border-bottom-right-radius: 500px;
+}
+
+.secondContainer {
+	position: absolute;
+	height: 580px;
+	width: 240px;
+	border: 1px solid white;
+	top: 30px;
+	left: 70px;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.mobileTop {
+	position: relative;
+	border-radius: 15px 15px 5px 5px;
+	background: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+	height: 75px;
+	margin: 10px 7px 0 7px;
+
+}
+
+.childMobileTop {
+	position: absolute;
+	border-radius: 20px;
+	height: 25px;
+	width: 105px;
+	left: 60px;
+	top: -10px;
+	background-color: white;
+}
+
+.childMobileTopContent {
+	position: relative;
+	top: 27px;
+	height: 40px;
+	margin: 0 10px 0 10px;
+	font-size: 7px;
+	background: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+	display: flex;
+	justify-content: space-between;
+}
+
+#childDesign {
+	font-size: 15px;
+	color: white;
+	margin-top: 5px;
+}
+
+
+#childText {
+	color: white;
+}
+
+#childText h1 {
+	margin-top: 1px;
+	margin-left: -50px;
+}
+
+#childText p {
+	margin-top: -8px;
+	margin-left: -50px;
+	font-size: 8px;
+}
+
+
+
+.childProfile {
+	height: 30px;
+	border-radius: 100px;
+	width: 30px;
+	background-image: url("file:///C:/Users/ACCER/Desktop/TECH%20PROJECTS/chat-app-css-illustration-master/images/avatar.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	border: 1px solid white;
+	margin-left: -50px;
+	margin-top: -2px;
+}
+
+.childMobileMiddle {
+	position: relative;
+	height: 480px;
+	border: 0.5px solid hsl(270, 20%, 96%);
+	border-radius: 0 0 25px 25px;
+	width: 222px;
+	left: 7.5px;
+	background-color: hsl(270, 20%, 96%);
+	font-size: 9px;
+
+}
+
+.childMobileMiddleChat {
+	height: 40px;
+	width: 120px;
+	color: hsl(293, 100%, 63%);
+	background-color:#ffc3ff;
+	margin: 10px 10px 10px 10px;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.childMobileMiddlePictures {
+	display: flex;
+	margin-left: 100px;
+	margin-right: 5px;
+	justify-content: space-between;
+
+}
+
+.dogs img {
+	height: 35px;
+	width: 35px;
+	border-radius: 5px;
+}
+
+.childMobileChat {
+	width: 110px;
+	color: black;
+	background-color: white;
+	margin: 10px 10px 0 100px;
+	border-radius: 10px;
+	padding: 3px;
+}
+
+.ChildMobileChat {
+	width: 70px;
+	color: black;
+	background-color: white;
+	margin: 10px 10px 0 140px;
+	border-radius: 10px;
+	padding: 3px;
+}
+
+.circle {
+	height: 10px;
+	width: 10px;
+	border-radius: 100px;
+	border: 1px solid white;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+.ChildMobileChatWalk {
+	display: flex;
+	justify-content: space-between;
+	width: 170px;
+	margin: 10px 10px 0 10px;
+	background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+	height: 30px;
+	color: white;
+	border-radius: 10px 5px 5px 0;
+}
+
+.ChildMobileChatWalk p {
+	margin-bottom: 5px;
+	margin-left: -50px;
+}
+
+.ChildMobileChatWalk h2 {
+	margin-top: 6.5px;
+	margin-right: 10px;
+}
+
+.messageSearch {
+	font-size: 10px;
+	height: 35px;
+	width: 205px;
+	background-color: white;
+	color: lightgrey;
+	margin: 20px 10px 0 10px;
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.messageSearch p {
+	margin-left: 20px;
+	margin-top: 10px;	
+}
+
+.blackCircleSearch {
+	margin-top: 5px;
+	margin-right: 5px;
+	font-size: 25px;
+	color: black;
+	outline: hsl(289, 100%, 72%);
+}
+
+.textSection {
+	margin: 100px 50px 100px 50px;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+@media only screen and (min-width: 768px ) {
+.firstContainer {
+	position: relative;
+	background: linear-gradient(to bottom left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+	height: 650px;
+	width: 180px;
+	border-bottom-right-radius: 500px;
+}
+
+.secondContainer {
+	position: absolute;
+	height: 580px;
+	width: 240px;
+	border: 1px solid white;
+	top: 80px;
+	left: 120px;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.fatherBox {
+	display: flex;
+	justify-content: space-between;
+}
+
+.textSection {
+	margin: 275px 50px 100px 230px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+.firstContainer {
+	position: relative;
+	background: linear-gradient(to bottom left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+	height: 800px;
+	width: 330px;
+	border-radius: 0 0 250px 250px;
+}
+
+.secondContainer {
+	position: absolute;
+	height: 580px;
+	width: 240px;
+	border: 1px solid white;
+	top: 170px;
+	left: 310px;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.mobileTop {
+	position: relative;
+	border-radius: 15px 15px 5px 5px;
+	background: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+	height: 75px;
+	margin: 10px 7px 0 7px;
+
+}
+
+.childMobileTop {
+	position: absolute;
+	border-radius: 20px;
+	height: 25px;
+	width: 150px;
+	left: 40px;
+	top: -10px;
+	background-color: white;
+}
+
+.fatherBox {
+	display: flex;
+	justify-content: space-between;
+}
+
+.textSection {
+	margin: 350px 50px 100px 250px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+}
+
+@media only screen and (min-width: 1200px){
+.firstContainer {
+	position: relative;
+	background: linear-gradient(to bottom left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+	height: 580px;
+	width: 330px;
+	border-radius: 0 0 250px 250px;
+}
+
+.secondContainer {
+	position: absolute;
+	height: 415px;
+	width: 200px;
+	border: 1px solid white;
+	top: 80px;
+	left: 280px;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.mobileTop {
+	position: relative;
+	border-radius: 15px 15px 5px 5px;
+	background: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+	height: 50px;
+	margin: 10px 7px 0 7px;
+
+}
+
+.childMobileTop {
+	position: absolute;
+	border-radius: 20px;
+	height: 20px;
+	width: 110px;
+	left: 40px;
+	top: -10px;
+	background-color: white;
+}
+
+.childMobileTopContent {
+	position: relative;
+	top: 27px;
+	height: 20px;
+	margin: 0 10px 0 10px;
+	font-size: 5px;
+	background: linear-gradient(to left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+	display: flex;
+	justify-content: space-between;
+}
+
+#childDesign {
+	font-size: 10px;
+	color: white;
+	margin-top: -4px;
+}
+
+
+#childText {
+	color: white;
+}
+
+#childText h1 {
+	margin-top: -7px;
+	margin-left: -40px;
+}
+
+#childText p {
+	margin-top: -7px;
+	margin-left: -40px;
+	font-size: 8px;
+}
+
+.childProfile {
+	height: 20px;
+	border-radius: 100px;
+	width: 20px;
+	background-image: url("file:///C:/Users/ACCER/Desktop/TECH%20PROJECTS/chat-app-css-illustration-master/images/avatar.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	border: 1px solid white;
+	margin-left: -40px;
+	margin-top: -8px;
+}
+
+.childMobileMiddle {
+	position: relative;
+	height: 340px;
+	border: 0.5px solid hsl(270, 20%, 96%);
+	border-radius: 0 0 25px 25px;
+	width: 183px;
+	left: 7.5px;
+	background-color: hsl(270, 20%, 96%);
+	font-size: 5px;
+
+}
+
+.childMobileMiddleChat {
+	height: 25px;
+	width: 80px;
+	color: hsl(293, 100%, 63%);
+	background-color:#ffc3ff;
+	margin: 10px 10px 10px 10px;
+	border-radius: 10px;
+	padding: 2px;
+}
+
+.childMobileMiddlePictures {
+	display: flex;
+	margin-left: 65px;
+	margin-right: 5px;
+	justify-content: space-between;
+
+}
+
+.dogs img {
+	height: 35px;
+	width: 35px;
+	border-radius: 5px;
+}
+
+.childMobileChat {
+	width: 110px;
+	color: black;
+	background-color: white;
+	margin: 10px 20px 0 61px;
+	border-radius: 10px;
+	padding: 3px;
+}
+
+.ChildMobileChat {
+	width: 50px;
+	color: black;
+	background-color: white;
+	margin: 10px 10px 0 120px;
+	border-radius: 10px;
+	padding: 3px;
+}
+
+.circle {
+	height: 4px;
+	width: 4px;
+	border-radius: 100px;
+	border: 1px solid white;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+.ChildMobileChatWalk {
+	display: flex;
+	justify-content: space-between;
+	width: 120px;
+	margin: 10px 10px 0 10px;
+	background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+	height: 20px;
+	color: white;
+	border-radius: 10px 5px 5px 0;
+}
+
+.ChildMobileChatWalk p {
+	margin-bottom: 5px;
+	margin-left: -40px;
+	margin-top: 8px;
+}
+
+.ChildMobileChatWalk h2 {
+	margin-top: 6.5px;
+	margin-right: 10px;
+}
+
+.messageSearch {
+	font-size: 5px;
+	height: 25px;
+	width: 165px;
+	background-color: white;
+	color: lightgrey;
+	margin: 15px 10px 0 10px;
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.messageSearch p {
+	margin-left: 20px;
+	margin-top: 10px;	
+}
+
+.blackCircleSearch {
+	margin-top: 5px;
+	margin-right: 5px;
+	font-size: 15px;
+	color: black;
+	outline: hsl(289, 100%, 72%);
+}
+
+.textSection {
+	margin: 200px 370px 100px 300px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
