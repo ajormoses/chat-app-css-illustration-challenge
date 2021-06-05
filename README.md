@@ -44,4 +44,4 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
     Github page (https://github.com/ajormoses)
 
   - [Acknowledgments](#acknowledgments)
-    I want to acknowledge the presence of my friend and also my collegues ANIMASHAUN TAOFIQ T (https://github.com/blade-01) and OMAR (https://github.com/Mbaoma) for mentoring me and also helping me tackle problems i can't solve on my own.
+    I want to acknowledge the presence of my friends and also my collegues ANIMASHAUN TAOFIQ T (https://github.com/blade-01) and OMAR (https://github.com/Mbaoma) for mentoring me and also helping me tackle problems i can't solve on my own.
