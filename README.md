@@ -8,7 +8,7 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
     [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
     **To do this challenge, you need a strong understanding of HTML and CSS.**
 
-  - [The challenge](#the-challenge)
+  - [The challenge](#The-challenge)
     My challenge is to build up this feature illustration using HTML & CSS and get it looking as close to the design as possible.
     The only assets we provide in this challenge are the image of the person in the app UI and the 3 images of the dog. You need to create everything else using HTML & CSS!
 
