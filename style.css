@@ -370,7 +370,7 @@ body {
 	height: 20px;
 	border-radius: 100px;
 	width: 20px;
-	background-image: url("file:///C:/Users/ACCER/Desktop/TECH%20PROJECTS/chat-app-css-illustration-master/images/avatar.jpg");
+	background-image: url("./images/avatar.jpg");
 	background-repeat: no-repeat;
 	background-size: contain;
 	border: 1px solid white;
